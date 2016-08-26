@@ -8,13 +8,4 @@ CSU Stanislaus
 run make in the source directory
 
 # Usage
-
-./rsa -e "encrypts" [exponent in decimal] [modulus n in hexidecimal] [plain text in double quotes]
-
-      -d "decrypt w/ private key" [ciphertext in double quotes] 
-      
-      -s "sign/encrypt with private key" [plaintext in double quotes] 
-    
-      -v "verify/decrypt with public key pair" [exponent in decimal] [modulus n in hexidecimal] [ciphertext in double quotes]
-    
-      -keys "print my public key pair"
+run rsa for usage details
